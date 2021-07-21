@@ -26,7 +26,8 @@
 // export default App;
 
 import React from 'react';
-import Counter from './Counter';
+// import Counter from './Counter';
+import Say from './Say';
 // import MyComponent from './MyComponent';
 
 // MyComponent 모듈 불러오기
@@ -45,8 +46,15 @@ import Counter from './Counter';
 // }
 
 // 클래스형 컴포넌트에서 state 사용하기
+// const App = () => {
+//   return <Counter/>
+// }
+
+// export default App;
+
+// 함수형 컴포넌트에서 useState 사용하기
 const App = () => {
-  return <Counter/>
+  return <Say/>
 }
 
 export default App;
